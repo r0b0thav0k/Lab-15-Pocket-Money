@@ -1,5 +1,5 @@
 **********************************************************
-*  PROGRAMMED BY : Stanley Ferguson and Jeremy Laster
+*  PROGRAMMED BY : 
 *  CLASS         : CS1A
 *  SECTION       : MW: 8:00a
 *  LAB #15       : Pocket Money

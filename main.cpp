@@ -1,7 +1,7 @@
 /*****************************************************************************
- * AUTHOR	  : Stanley Ferguson and Jeremy Laster
- * STUDENT ID : 1052330 and 363129
- * LAB #13	  : Output - Geometry
+ * AUTHOR	  : 
+ * STUDENT ID     : 
+ * LAB #15	  : Pocket Money
  * CLASS	  : CS1A
  * SECTION	  : MW: 8am
  * DUE DATE	  : 03/13/17
@@ -28,7 +28,7 @@ using namespace std;
  * 	  *** set 1 ***
  * 	  *************
  * 	  	name			: the full name of the user
- * 	 	amtLeftPrevWk	: the amount left from the previous week
+ * 	 	amtLeftPrevWk		: the amount left from the previous week
  * 	  	amtSpent		: the amount spent in the current week
  *
  * OUTPUT:
@@ -60,10 +60,10 @@ int main()
 	 * -----------------------------------------------------------------------
 	 * NAME_PROMPT_COL    : spacing for the user's full name
 	 * AMT_PREV_WK_COL    : spacing for the amount previous week
-	 * AMT_SPENT 		  : spacing for the amount spent
+	 * AMT_SPENT 	      : spacing for the amount spent
 	 *************************************************************************/
-	const char  PROGRAMMER[]    = "Stanley Ferguson and Jeremy Laster";
-	const char  CLASS[]		    = "CS1A";
+	const char  PROGRAMMER[]    = " ";
+	const char  CLASS[]	    = "CS1A";
 	const char  SECTION[]	    = "MW: 8:00a";
 	const int   LAB_NUM         = 15;
 	const char  LAB_NAME[]      = "Pocket Money";
@@ -75,15 +75,15 @@ int main()
 	char name[25];      		// IN & OUT   - user's full name
 	float amtLeftPrevWk;    	// IN & CAL   - amount left previous week
 	float amtSpent;         	// CALC & OUT - amount spent current week
-	float pocketMoney;			// CALC & OUT - pocket money left over
+	float pocketMoney;		// CALC & OUT - pocket money left over
 
 	// OUTPUT - Class Heading
 	cout << left;
 	cout << "**********************************************************\n";
 	cout << "*  PROGRAMMED BY : "  << PROGRAMMER << endl;
-	cout << "*  "	   << setw(14) << "CLASS"	 << ": " << CLASS    << endl;
+	cout << "*  "	   << setw(14) << "CLASS"    << ": " << CLASS    << endl;
 	cout << "*  "	   << setw(14) << "SECTION"  << ": " << SECTION  << endl;
-	cout << "*  LAB #" << setw(9)  << LAB_NUM	 << ": " << LAB_NAME << endl;
+	cout << "*  LAB #" << setw(9)  << LAB_NUM    << ": " << LAB_NAME << endl;
 	cout << "**********************************************************\n\n";
 	cout << right;
 
